@@ -1,0 +1,13 @@
+﻿<Window x:Class="LPI.ResultSelectionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Результат испытаний" ResizeMode="CanResizeWithGrip" SizeToContent="WidthAndHeight">
+    <Grid>
+        <StackPanel Margin="10">
+            <Label Content="Результат испытаний:" FontSize="16" HorizontalAlignment="Center"/>
+            <Button Content="Положительный" Margin="5" Click="PositiveButton_Click" />
+            <Button Content="Отрицательный" Margin="5" Click="NegativeButton_Click"/>
+            <Button Content="Остановка" Margin="5" Click="StopButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
